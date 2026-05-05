@@ -19,3 +19,5 @@ evaluation_runs/
 
 # Keep small, reproducible derived artifacts in docs only.
 !docs/
+
+.vercel
