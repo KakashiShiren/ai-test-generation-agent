@@ -1,0 +1,9 @@
+source_repos
+data/chroma
+generated_tests
+evaluation_runs
+.pytest_cache
+__pycache__
+.coverage
+.env
+.env.*
