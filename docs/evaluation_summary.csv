@@ -1,0 +1,10 @@
+metric,value
+total_functions,50
+passed_generated_test_files,4
+pass_rate_percent,8.0
+mean_target_line_coverage_percent,48.45
+functions_with_80_percent_or_more_target_coverage,21
+import_errors,5
+assertion_errors,14
+syntax_errors,15
+other_failures,12

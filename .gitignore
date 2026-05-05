@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local config
+.env
+.env.*
+
+# Generated/local data
+source_repos/
+data/chroma/
+generated_tests/
+evaluation_runs/
+
+# Keep small, reproducible derived artifacts in docs only.
+!docs/
