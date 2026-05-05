@@ -120,6 +120,25 @@
         font-weight: 700;
       }
 
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        border: 1px solid var(--accent);
+        border-radius: 8px;
+        padding: 0 16px;
+        color: #ffffff;
+        background: var(--accent);
+        text-decoration: none;
+      }
+
       @media (max-width: 780px) {
         .hero,
         .stats {
@@ -140,6 +159,9 @@
           <p>
             A LangChain agent that retrieves Python code context from persistent ChromaDB and generates pytest files from function signatures.
           </p>
+          <div class="actions">
+            <a class="button-link" href="https://github.com/KakashiShiren/ai-test-generation-agent" target="_blank" rel="noreferrer">View GitHub repo</a>
+          </div>
         </div>
         <div class="panel">
           <pre>Input
@@ -167,7 +189,7 @@ AST chunks -> OpenAI embeddings -> Chroma retrieval -> Groq generation -> pytest
       <section>
         <h2>Run Locally</h2>
         <p>
-          Install dependencies with <code>pip install -r requirements.txt</code>, set <code>OPENAI_API_KEY</code> and <code>GROQ_API_KEY</code>, build the vector store, then run <code>python app.py</code> or <code>python scripts\generate_test.py "def default_headers() -> CaseInsensitiveDict"</code>.
+          The full source is available on <a href="https://github.com/KakashiShiren/ai-test-generation-agent" target="_blank" rel="noreferrer">GitHub</a>. Install dependencies with <code>pip install -r requirements.txt</code>, set <code>OPENAI_API_KEY</code> and <code>GROQ_API_KEY</code>, build the vector store, then run <code>python app.py</code> or <code>python scripts\generate_test.py "def default_headers() -> CaseInsensitiveDict"</code>.
         </p>
       </section>
 
