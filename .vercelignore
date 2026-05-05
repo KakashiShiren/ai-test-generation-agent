@@ -1,5 +1,8 @@
 source_repos
+ai_test_gen
+scripts
 data/chroma
+data/chunks
 generated_tests
 evaluation_runs
 .pytest_cache
@@ -7,3 +10,9 @@ __pycache__
 .coverage
 .env
 .env.*
+app.py
+demo.py
+pyproject.toml
+requirements.txt
+README.md
+docs
